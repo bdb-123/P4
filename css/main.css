@@ -1,0 +1,53 @@
+/* DEVELOPER: Billy Bernardino, IS117-005, Fall 2025 */
+
+/* Global typography */
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Give main content some breathing room (extra on very small pages) */
+main {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Headings: consistent spacing */
+h1, h2, h3, h4, h5 {
+    margin-bottom: 0.75rem;
+}
+
+/* Paragraph spacing */
+p {
+    margin-bottom: 0.75rem;
+}
+
+/* Cards: slightly softer look */
+.card {
+    border-radius: 0.75rem;
+}
+
+/* Images: subtle rounding so they match cards */
+img {
+    border-radius: 4px;
+}
+
+/* Footer: small but readable text */
+footer {
+    font-size: 0.85rem;
+}
+
+/* Keep content from hiding behind the fixed footer */
+body {
+    padding-bottom: 70px;  /* adjust if your footer gets taller */
+}
+
+/* Sticky footer that always stays at the bottom of the viewport */
+.sticky-footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    z-index: 1030;          /* stay above content */
+}
